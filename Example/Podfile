@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TZBServer_Example' do
+  pod 'TZBServer', :path => '../'
+
+  target 'TZBServer_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
