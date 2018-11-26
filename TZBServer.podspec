@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TZBServer'
-  s.version          = '1'
+  s.version          = 'master'
   s.summary          = 'A short description of TZBServer.'
 
 # This description is used to generate tags and improve search results.
