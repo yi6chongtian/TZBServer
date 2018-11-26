@@ -1,0 +1,22 @@
+{
+  "name": "TZBServer",
+  "version": "0.1.0",
+  "summary": "A short description of TZBServer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yi6chongtian/TZBServer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yi6chongtian": "tangzhibiao@aliyun.com"
+  },
+  "source": {
+    "git": "https://github.com/yi6chongtian/TZBServer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TZBServer/Classes/**/*"
+}

@@ -56,17 +56,17 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		70A0C22F54EC392F1E57846E /* TZBServer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TZBServer.podspec; path = ../TZBServer.podspec; sourceTree = "<group>"; };
+		70A0C22F54EC392F1E57846E /* TZBServer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TZBServer.podspec; path = ../TZBServer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		95A0AB234452B96D2AE581BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		95A0AB234452B96D2AE581BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		AF4EAEC8DF50311A8D7983E6 /* Pods-TZBServer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TZBServer_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TZBServer_Tests/Pods-TZBServer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B28C056D8A4711AC7477DF2B /* Pods_TZBServer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TZBServer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7201FA3D2E35AD70EF39A3D /* Pods_TZBServer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TZBServer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7423414BA6E60B74EEA6915 /* Pods-TZBServer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TZBServer_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TZBServer_Tests/Pods-TZBServer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB445DA5F989C83F476333DD /* Pods-TZBServer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TZBServer_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TZBServer_Example/Pods-TZBServer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E37C56C3569B33AE53C64282 /* Pods-TZBServer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TZBServer_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TZBServer_Example/Pods-TZBServer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F13288B527B62B2949999459 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F13288B527B62B2949999459 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
