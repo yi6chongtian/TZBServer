@@ -20,6 +20,7 @@
 		5D4A1992EE85463D69D6A2CAC384E16D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		67CDE2A3194984D97ED6DBB5A7CEADD3 /* TZBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 103686FDDAC6B9E6435831565F2E00C1 /* TZBObject.m */; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
+		7101ACA08A165D0E2D8E94CD0F72CB94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F8E239D481906E192F8269D8A7EB539 /* Images.xcassets */; };
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
 		79308194B5A8F7FB4F169E93B80C60ED /* Pods-TZBServer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B6C135F425F8D35F6E20828A950576B /* Pods-TZBServer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */; };
@@ -38,7 +39,6 @@
 		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C00B5310F884C192747120706EBE94D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		CE8924925156F2DF7E6D3E76335E3C54 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 802D288AB39D33E6286B7BA7011A438F /* Assets */; };
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
 		ECA188CC0DE5F3F7F5BB185255BC0DEB /* Pods-TZBServer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 013BA4A03A9BD0F34F6037378A17DF67 /* Pods-TZBServer_Example-dummy.m */; };
 		FE426A765A31C46EACAD4B7C64C5F210 /* TZBServer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB7E17B12FEE730E483CD8EAE636CE94 /* TZBServer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -86,6 +86,7 @@
 		12171C766AF5C516BE5386BFA68B3491 /* TZBServer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TZBServer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		17496E1CEEACBAE930C29944D640C477 /* Pods-TZBServer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TZBServer_Example.modulemap"; sourceTree = "<group>"; };
+		1F8E239D481906E192F8269D8A7EB539 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TZBServer/Images.xcassets; sourceTree = "<group>"; };
 		229F5C2A75DF2E52013A76031357E71F /* Pods-TZBServer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TZBServer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		28210BB96D9B1B623AFB0972B9E250C3 /* Pods-TZBServer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TZBServer_Tests-dummy.m"; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
@@ -107,7 +108,6 @@
 		78C5AE8C6193B70F30227C1D4564E10C /* Pods-TZBServer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TZBServer_Example-resources.sh"; sourceTree = "<group>"; };
 		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		802D288AB39D33E6286B7BA7011A438F /* Assets */ = {isa = PBXFileReference; includeInIndex = 1; name = Assets; path = TZBServer/Assets; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		8B6C135F425F8D35F6E20828A950576B /* Pods-TZBServer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TZBServer_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8E419FF9ED6D9E8C40781B703C819D2E /* Pods-TZBServer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TZBServer_Tests.modulemap"; sourceTree = "<group>"; };
@@ -289,10 +289,10 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		8E2AF2E590D05C0FEB52F031EF92B47F /* Resources */ = {
+		96434BB58848831D3A75CDCC6DCEACD8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				802D288AB39D33E6286B7BA7011A438F /* Assets */,
+				1F8E239D481906E192F8269D8A7EB539 /* Images.xcassets */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -330,7 +330,7 @@
 				CA5C4CA3B4AFAAD02037BB68B59C6024 /* TZBObject.h */,
 				103686FDDAC6B9E6435831565F2E00C1 /* TZBObject.m */,
 				E5626F046A1434AB8CCDC33EFE5DC3B9 /* Pod */,
-				8E2AF2E590D05C0FEB52F031EF92B47F /* Resources */,
+				96434BB58848831D3A75CDCC6DCEACD8 /* Resources */,
 				11C570EA5483CE9A4CAF4BD1AB138C12 /* Support Files */,
 			);
 			name = TZBServer;
@@ -482,7 +482,7 @@
 			buildPhases = (
 				4C08071C22722F9423A5A1BF166524A9 /* Sources */,
 				148334056DDD703287B17CD0CFE863DD /* Frameworks */,
-				C0930781BA8E0E2B72F97CB05DA78028 /* Resources */,
+				E1EBFBF59788EC58BEE8020CE9540E05 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -569,11 +569,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0930781BA8E0E2B72F97CB05DA78028 /* Resources */ = {
+		E1EBFBF59788EC58BEE8020CE9540E05 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE8924925156F2DF7E6D3E76335E3C54 /* Assets in Resources */,
+				7101ACA08A165D0E2D8E94CD0F72CB94 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

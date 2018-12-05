@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'TZBServer/Classes/**/*'
   
   s.resource_bundles = {
-    'TZBServer' => ['TZBServer/Images.xcassets']
+    'TZBServer' => ['TZBServer/Images.xcassets','TZBServer/*.xib']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

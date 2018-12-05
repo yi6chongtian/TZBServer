@@ -9,6 +9,7 @@
 #import "TZBViewController.h"
 
 @interface TZBViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *imgView;
 
 @end
 
@@ -17,7 +18,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    UIImage *img = [UIImage imageNamed:@"alert_backfat"];
+    NSLog(@"%@",img);
+    self.imgView.image = img;
 }
 
 - (void)didReceiveMemoryWarning
