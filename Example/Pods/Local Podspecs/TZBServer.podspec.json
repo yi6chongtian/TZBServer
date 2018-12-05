@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TZBServer/Classes/**/*"
+  "source_files": "TZBServer/Classes/**/*",
+  "resource_bundles": {
+    "TZBServer": [
+      "TZBServer/Assets/*.png"
+    ]
+  }
 }
