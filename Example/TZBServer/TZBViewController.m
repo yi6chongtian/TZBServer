@@ -7,6 +7,7 @@
 //
 
 #import "TZBViewController.h"
+#import "TZBObject.h"
 
 @interface TZBViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *imgView;
@@ -18,9 +19,23 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    TZBObject *obj = [TZBObject new];
+    [obj method1];
+    
+    NSLog(@"%@",NSBundle.allBundles);
+    
+    NSBundle *bd = [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"TZBServer" ofType:@"bundle"]];
+    
+    
+    
     UIImage *img = [UIImage imageNamed:@"alert_backfat"];
     NSLog(@"%@",img);
     self.imgView.image = img;
+    
+//    UIView *view = [[NSBundle mainBundle] loadNibNamed:@"TestXib" owner:nil options:nil].lastObject;
+//    view.frame = CGRectMake(50, 50, 100, 100);
+//    [self.view addSubview:view];
 }
 
 - (void)didReceiveMemoryWarning

@@ -9,18 +9,18 @@
 /* Begin PBXBuildFile section */
 		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
-		0C90F99D1F9026772175CA9DBE27DD9C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 011CAA3808B98F84FF6AA29801CF3A82 /* ReplaceMe.m */; };
+		0C90F99D1F9026772175CA9DBE27DD9C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 394901B85E743631E127E6B1D1026803 /* ReplaceMe.m */; };
+		11829E2AE94A20C09526260F6AA1ACC4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C2A012C7B4BE9658A657B8C676EAF87 /* Images.xcassets */; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
-		237EB119CEA7BB3DA50744CE88285E8F /* TZBObject.h in Headers */ = {isa = PBXBuildFile; fileRef = CA5C4CA3B4AFAAD02037BB68B59C6024 /* TZBObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		237EB119CEA7BB3DA50744CE88285E8F /* TZBObject.h in Headers */ = {isa = PBXBuildFile; fileRef = E9F4CF614D69AB4A67D4CD0228069B22 /* TZBObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		3D02CC02A87C163B7E4DD1F1F9A7BD23 /* Pods-TZBServer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28210BB96D9B1B623AFB0972B9E250C3 /* Pods-TZBServer_Tests-dummy.m */; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */; };
 		5D4A1992EE85463D69D6A2CAC384E16D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		67CDE2A3194984D97ED6DBB5A7CEADD3 /* TZBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 103686FDDAC6B9E6435831565F2E00C1 /* TZBObject.m */; };
+		67CDE2A3194984D97ED6DBB5A7CEADD3 /* TZBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCCC1145C1F4DBABC2D5C74AA782FB6 /* TZBObject.m */; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
-		7101ACA08A165D0E2D8E94CD0F72CB94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F8E239D481906E192F8269D8A7EB539 /* Images.xcassets */; };
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
 		79308194B5A8F7FB4F169E93B80C60ED /* Pods-TZBServer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B6C135F425F8D35F6E20828A950576B /* Pods-TZBServer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */; };
@@ -28,7 +28,8 @@
 		890979B1A98258A09B8BBFB4AF6C044C /* Pods-TZBServer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F6CBEFC7EE8E85155AC07576E9602FC /* Pods-TZBServer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A2094EFBD18149FD2F1DCB9D01EDE8EB /* TZBServer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B68478CF3B36B448BB60D653013D98 /* TZBServer-dummy.m */; };
+		992C3A63229DBC2C3CDEFF313C46C6EF /* TestXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DD54CF7011683FA637D306455402286 /* TestXib.xib */; };
+		A2094EFBD18149FD2F1DCB9D01EDE8EB /* TZBServer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8036A6433B9E8E4043C788A34CB06E07 /* TZBServer-dummy.m */; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
 		A683F722BC4078B463BEDA0F00A94578 /* TZBServer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4249BF3AE89454596E59442A5B1BA392 /* TZBServer.bundle */; };
 		AC8621C9A924DABE9EA17095D5837529 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
@@ -41,7 +42,7 @@
 		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
 		ECA188CC0DE5F3F7F5BB185255BC0DEB /* Pods-TZBServer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 013BA4A03A9BD0F34F6037378A17DF67 /* Pods-TZBServer_Example-dummy.m */; };
-		FE426A765A31C46EACAD4B7C64C5F210 /* TZBServer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB7E17B12FEE730E483CD8EAE636CE94 /* TZBServer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE426A765A31C46EACAD4B7C64C5F210 /* TZBServer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD74785F76D2B81EA35783BD2F91364B /* TZBServer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,20 +77,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		011CAA3808B98F84FF6AA29801CF3A82 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TZBServer/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		013BA4A03A9BD0F34F6037378A17DF67 /* Pods-TZBServer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TZBServer_Example-dummy.m"; sourceTree = "<group>"; };
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		0C11A1781B720ACCD1792EFBA7EE4247 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		0E4AFD4E2039E702173AA23F8E4C57D1 /* Pods-TZBServer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TZBServer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		103686FDDAC6B9E6435831565F2E00C1 /* TZBObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZBObject.m; path = TZBServer/Classes/TZBObject.m; sourceTree = "<group>"; };
-		1192C806C6041B0C210553ACD723C644 /* TZBServer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TZBServer.xcconfig; sourceTree = "<group>"; };
-		12171C766AF5C516BE5386BFA68B3491 /* TZBServer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TZBServer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		17496E1CEEACBAE930C29944D640C477 /* Pods-TZBServer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TZBServer_Example.modulemap"; sourceTree = "<group>"; };
-		1F8E239D481906E192F8269D8A7EB539 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TZBServer/Images.xcassets; sourceTree = "<group>"; };
 		229F5C2A75DF2E52013A76031357E71F /* Pods-TZBServer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TZBServer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		28210BB96D9B1B623AFB0972B9E250C3 /* Pods-TZBServer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TZBServer_Tests-dummy.m"; sourceTree = "<group>"; };
+		2DD54CF7011683FA637D306455402286 /* TestXib.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TestXib.xib; path = TZBServer/TestXib.xib; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		394901B85E743631E127E6B1D1026803 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TZBServer/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
@@ -99,48 +98,51 @@
 		4249BF3AE89454596E59442A5B1BA392 /* TZBServer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TZBServer.bundle; path = "TZBServer-TZBServer.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		57EA13EBF8FDD673157C06108872B1D2 /* TZBServer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TZBServer-prefix.pch"; sourceTree = "<group>"; };
+		511E514101C2C9DCF600C9D397399930 /* TZBServer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TZBServer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		5DF8F457BE23028EF938A120F8BAB125 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F8A62DF5713FBFAE81AFCA424FA600B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		63B68478CF3B36B448BB60D653013D98 /* TZBServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TZBServer-dummy.m"; sourceTree = "<group>"; };
 		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71E811D202F3C40892DF2331D6099D09 /* TZBServer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TZBServer.modulemap; sourceTree = "<group>"; };
+		77DEE41A46F6E6BED2C28A4539BA76AF /* ResourceBundle-TZBServer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TZBServer-Info.plist"; sourceTree = "<group>"; };
 		78C5AE8C6193B70F30227C1D4564E10C /* Pods-TZBServer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TZBServer_Example-resources.sh"; sourceTree = "<group>"; };
 		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		8036A6433B9E8E4043C788A34CB06E07 /* TZBServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TZBServer-dummy.m"; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		8B6C135F425F8D35F6E20828A950576B /* Pods-TZBServer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TZBServer_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8E419FF9ED6D9E8C40781B703C819D2E /* Pods-TZBServer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TZBServer_Tests.modulemap"; sourceTree = "<group>"; };
 		92131F3823E04088A9AF50A937C8D92A /* Pods-TZBServer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TZBServer_Tests-resources.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C2A012C7B4BE9658A657B8C676EAF87 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TZBServer/Images.xcassets; sourceTree = "<group>"; };
 		9CAA58042D2AEB3FF42DBA73E7223F6F /* Pods-TZBServer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TZBServer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9F6CBEFC7EE8E85155AC07576E9602FC /* Pods-TZBServer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TZBServer_Example-umbrella.h"; sourceTree = "<group>"; };
 		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AD74785F76D2B81EA35783BD2F91364B /* TZBServer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TZBServer-umbrella.h"; sourceTree = "<group>"; };
 		AF3E19A3B25DDAB3505DD23EB605DFD1 /* Pods-TZBServer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZBServer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B125F772250D519028B9759E0D9AE67F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B29ED2971A1F6E04B6DB5997279070B2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		BCCCC1145C1F4DBABC2D5C74AA782FB6 /* TZBObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZBObject.m; path = TZBServer/Classes/TZBObject.m; sourceTree = "<group>"; };
 		BE2E1B48A53B57C14CF85487E8EC6A43 /* TZBServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TZBServer.framework; path = TZBServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		C7EA83383F11EF59F0D1FA899FDF8CC8 /* Pods-TZBServer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZBServer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C89DC6DA31853991FC3C5B991367B285 /* Pods-TZBServer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TZBServer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CA5C4CA3B4AFAAD02037BB68B59C6024 /* TZBObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZBObject.h; path = TZBServer/Classes/TZBObject.h; sourceTree = "<group>"; };
-		CF767F84D44979F952FB1BA3CD1852F1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D092DB96CDA36F5772E0D8D928317CA1 /* TZBServer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TZBServer-prefix.pch"; sourceTree = "<group>"; };
 		D1F06C34F3A3D49B44B5C19E6D980D2F /* Pods_TZBServer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TZBServer_Tests.framework; path = "Pods-TZBServer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3EF62A357298ADD0185EAC5C8E82446 /* TZBServer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TZBServer.modulemap; sourceTree = "<group>"; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		DA90C1C5782C3B6D21C7497B74396143 /* Pods-TZBServer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZBServer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DBF83D44517D625F88561139CE7F5BD9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		DC311F940BE770E3E933AB944DA47BD3 /* Pods-TZBServer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TZBServer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E1ABA80925A8F171F4F7E34DAFF97202 /* Pods-TZBServer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TZBServer_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		EB7E17B12FEE730E483CD8EAE636CE94 /* TZBServer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TZBServer-umbrella.h"; sourceTree = "<group>"; };
+		E9F4CF614D69AB4A67D4CD0228069B22 /* TZBObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZBObject.h; path = TZBServer/Classes/TZBObject.h; sourceTree = "<group>"; };
+		EB9F48A61ECFFFE6A72C17D83E2C9013 /* TZBServer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TZBServer.xcconfig; sourceTree = "<group>"; };
 		EDDC489ECFA89F16575A9CE10A47DF17 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		FF6D0BDFF5C60016FA4BEBE0065BED62 /* ResourceBundle-TZBServer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TZBServer-Info.plist"; sourceTree = "<group>"; };
+		FC9FAC9C9737B05A35F53528DCC4A6EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,24 +194,9 @@
 		03DD86DB8BC1A6A47F17CCA4EEF5099D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D2F2D93096A5E7C479419EC053DBD96C /* TZBServer */,
+				57A61D453FFCFE61CAC8B75919743363 /* TZBServer */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		11C570EA5483CE9A4CAF4BD1AB138C12 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5F8A62DF5713FBFAE81AFCA424FA600B /* Info.plist */,
-				FF6D0BDFF5C60016FA4BEBE0065BED62 /* ResourceBundle-TZBServer-Info.plist */,
-				D3EF62A357298ADD0185EAC5C8E82446 /* TZBServer.modulemap */,
-				1192C806C6041B0C210553ACD723C644 /* TZBServer.xcconfig */,
-				63B68478CF3B36B448BB60D653013D98 /* TZBServer-dummy.m */,
-				57EA13EBF8FDD673157C06108872B1D2 /* TZBServer-prefix.pch */,
-				EB7E17B12FEE730E483CD8EAE636CE94 /* TZBServer-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TZBServer";
 			sourceTree = "<group>";
 		};
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
@@ -257,6 +244,44 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		57A61D453FFCFE61CAC8B75919743363 /* TZBServer */ = {
+			isa = PBXGroup;
+			children = (
+				394901B85E743631E127E6B1D1026803 /* ReplaceMe.m */,
+				E9F4CF614D69AB4A67D4CD0228069B22 /* TZBObject.h */,
+				BCCCC1145C1F4DBABC2D5C74AA782FB6 /* TZBObject.m */,
+				A8E32C0183C8B4D9DAAB63C36C952A7B /* Pod */,
+				5FD01FF7B9B018F81AC786AE261F55F4 /* Resources */,
+				5F5AF995339987FB327707648B9B85AB /* Support Files */,
+			);
+			name = TZBServer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5F5AF995339987FB327707648B9B85AB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B125F772250D519028B9759E0D9AE67F /* Info.plist */,
+				77DEE41A46F6E6BED2C28A4539BA76AF /* ResourceBundle-TZBServer-Info.plist */,
+				71E811D202F3C40892DF2331D6099D09 /* TZBServer.modulemap */,
+				EB9F48A61ECFFFE6A72C17D83E2C9013 /* TZBServer.xcconfig */,
+				8036A6433B9E8E4043C788A34CB06E07 /* TZBServer-dummy.m */,
+				D092DB96CDA36F5772E0D8D928317CA1 /* TZBServer-prefix.pch */,
+				AD74785F76D2B81EA35783BD2F91364B /* TZBServer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TZBServer";
+			sourceTree = "<group>";
+		};
+		5FD01FF7B9B018F81AC786AE261F55F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9C2A012C7B4BE9658A657B8C676EAF87 /* Images.xcassets */,
+				2DD54CF7011683FA637D306455402286 /* TestXib.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		6613857A132D25E0D85CEA92D0DFDD7A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -289,20 +314,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		96434BB58848831D3A75CDCC6DCEACD8 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				1F8E239D481906E192F8269D8A7EB539 /* Images.xcassets */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
 				D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		A8E32C0183C8B4D9DAAB63C36C952A7B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FC9FAC9C9737B05A35F53528DCC4A6EA /* LICENSE */,
+				0C11A1781B720ACCD1792EFBA7EE4247 /* README.md */,
+				511E514101C2C9DCF600C9D397399930 /* TZBServer.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		AD21A8067F96B0575DC82C74A1ABF234 /* Pods-TZBServer_Tests */ = {
@@ -321,30 +348,6 @@
 			);
 			name = "Pods-TZBServer_Tests";
 			path = "Target Support Files/Pods-TZBServer_Tests";
-			sourceTree = "<group>";
-		};
-		D2F2D93096A5E7C479419EC053DBD96C /* TZBServer */ = {
-			isa = PBXGroup;
-			children = (
-				011CAA3808B98F84FF6AA29801CF3A82 /* ReplaceMe.m */,
-				CA5C4CA3B4AFAAD02037BB68B59C6024 /* TZBObject.h */,
-				103686FDDAC6B9E6435831565F2E00C1 /* TZBObject.m */,
-				E5626F046A1434AB8CCDC33EFE5DC3B9 /* Pod */,
-				96434BB58848831D3A75CDCC6DCEACD8 /* Resources */,
-				11C570EA5483CE9A4CAF4BD1AB138C12 /* Support Files */,
-			);
-			name = TZBServer;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		E5626F046A1434AB8CCDC33EFE5DC3B9 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				DBF83D44517D625F88561139CE7F5BD9 /* LICENSE */,
-				CF767F84D44979F952FB1BA3CD1852F1 /* README.md */,
-				12171C766AF5C516BE5386BFA68B3491 /* TZBServer.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
@@ -482,7 +485,7 @@
 			buildPhases = (
 				4C08071C22722F9423A5A1BF166524A9 /* Sources */,
 				148334056DDD703287B17CD0CFE863DD /* Frameworks */,
-				E1EBFBF59788EC58BEE8020CE9540E05 /* Resources */,
+				8B08370D9439508EE4C4AF3B043C2AB1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -561,19 +564,20 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8B08370D9439508EE4C4AF3B043C2AB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11829E2AE94A20C09526260F6AA1ACC4 /* Images.xcassets in Resources */,
+				992C3A63229DBC2C3CDEFF313C46C6EF /* TestXib.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A70DD328709DDD2B6C51E49F0AA21A4D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A683F722BC4078B463BEDA0F00A94578 /* TZBServer.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E1EBFBF59788EC58BEE8020CE9540E05 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7101ACA08A165D0E2D8E94CD0F72CB94 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -661,7 +665,7 @@
 /* Begin XCBuildConfiguration section */
 		078A7759BEAB2FA378AE32A20B2CD327 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1192C806C6041B0C210553ACD723C644 /* TZBServer.xcconfig */;
+			baseConfigurationReference = EB9F48A61ECFFFE6A72C17D83E2C9013 /* TZBServer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -758,7 +762,7 @@
 		};
 		4CFFD3ABCBA06B1134142A46FCCAF9E6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1192C806C6041B0C210553ACD723C644 /* TZBServer.xcconfig */;
+			baseConfigurationReference = EB9F48A61ECFFFE6A72C17D83E2C9013 /* TZBServer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TZBServer";
@@ -774,7 +778,7 @@
 		};
 		5D51ADB69CBFEA402A47D0C516DCD6DF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1192C806C6041B0C210553ACD723C644 /* TZBServer.xcconfig */;
+			baseConfigurationReference = EB9F48A61ECFFFE6A72C17D83E2C9013 /* TZBServer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -903,7 +907,7 @@
 		};
 		90C90FF9D2BE9F6C954D6C93AD238D1E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1192C806C6041B0C210553ACD723C644 /* TZBServer.xcconfig */;
+			baseConfigurationReference = EB9F48A61ECFFFE6A72C17D83E2C9013 /* TZBServer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TZBServer";

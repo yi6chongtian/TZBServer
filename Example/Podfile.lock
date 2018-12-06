@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  TZBServer: b8eda9ccaf29f12802bae4505c54da0074dd46ac
+  TZBServer: 2bd590f6f6fceb35ab8211a947ec8ddff971fe2a
 
 PODFILE CHECKSUM: 7947a3be9fdb44d7e36c338ffd79dd1d06fb4a7d
 

@@ -21,7 +21,8 @@
   "source_files": "TZBServer/Classes/**/*",
   "resource_bundles": {
     "TZBServer": [
-      "TZBServer/Images.xcassets"
+      "TZBServer/Images.xcassets",
+      "TZBServer/*.xib"
     ]
   }
 }
