@@ -25,11 +25,13 @@
     
     NSLog(@"%@",NSBundle.allBundles);
     
-    NSBundle *bd = [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"TZBServer" ofType:@"bundle"]];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"TZBServerNew.bundle" ofType:nil];
+    
+    NSBundle *bundle = [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"TZBServer" ofType:@"bundle"]];
     
     
     
-    UIImage *img = [UIImage imageNamed:@"alert_backfat"];
+    UIImage *img = [UIImage imageNamed:@"alert_backfat" inBundle:bundle compatibleWithTraitCollection:nil];
     NSLog(@"%@",img);
     self.imgView.image = img;
     

@@ -20,7 +20,7 @@
   },
   "source_files": "TZBServer/Classes/**/*",
   "resource_bundles": {
-    "TZBServer": [
+    "TZBServerNew": [
       "TZBServer/Images.xcassets",
       "TZBServer/*.xib"
     ]
